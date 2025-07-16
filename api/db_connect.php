@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 // --- ⚙️ กรุณาแก้ไขข้อมูลการเชื่อมต่อฐานข้อมูลของคุณที่นี่ ⚙️ ---
 // ตรวจสอบให้แน่ใจว่าข้อมูลเหล่านี้ถูกต้องตามการตั้งค่า MariaDB บน Synology NAS ของคุณ
-$serverName = "krisada.synology.me";    // โดยทั่วไปคือ "localhost" หรือ "127.0.0.1"
+$serverName = "https://krisada.synology.me/phpmyadmin:443";    // โดยทั่วไปคือ "localhost" หรือ "127.0.0.1"
 $database   = "school_system_db";   // !!! เปลี่ยนชื่อฐานข้อมูลที่คุณจะสร้าง (เช่น school_db)
 $uid        = "school";     // !!! ชื่อผู้ใช้ฐานข้อมูลของคุณ (อาจไม่ใช่ root ใน production)
 $pwd        = "P@ssw0rd@2012"; // !!! รหัสผ่านที่คุณตั้งไว้สำหรับผู้ใช้ฐานข้อมูล
